@@ -1,8 +1,8 @@
 import invariant from 'invariant';
-import React from 'react';
+import PropTypes from 'prop-types';
 import CameraRollManager from '../NativeModules/CameraRollManager';
 
-const { PropTypes } = React;
+const { PropTypes } = PropTypes;
 
 const GROUP_TYPES_OPTIONS = [
   'Album',

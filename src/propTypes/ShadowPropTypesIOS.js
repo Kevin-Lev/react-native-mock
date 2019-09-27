@@ -1,7 +1,7 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import ColorPropType from './ColorPropType';
 
-const { PropTypes } = React;
+const { PropTypes } = PropTypes;
 
 const ShadowPropTypesIOS = {
   /**

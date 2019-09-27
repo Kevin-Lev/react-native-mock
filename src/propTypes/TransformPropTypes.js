@@ -1,9 +1,9 @@
 /**
  * https://github.com/facebook/react-native/blob/master/Libraries/StyleSheet/TransformPropTypes.js
  */
-import React from 'react';
+import PropTypes from 'prop-types';
 
-const { PropTypes } = React;
+const { PropTypes } = PropTypes;
 
 const arrayOfNumberPropType = PropTypes.arrayOf(PropTypes.number);
 

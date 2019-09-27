@@ -1,8 +1,8 @@
 class Animated {}
 
-import React from 'react';
+import PropTypes from 'prop-types';
 
-const { PropTypes } = React;
+const { PropTypes } = PropTypes;
 
 /* NavigationAction */
 const action = PropTypes.shape({
